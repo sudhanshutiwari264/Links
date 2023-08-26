@@ -4,23 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <title>Sudhanshu Tiwari's Linktree</title>
   <style>
     body {
+      background-color: #0C111B;
       background-image: url('resources/background.jpg');
       background-size: cover;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(10px);
+      padding: 2rem;
+      border-radius: 20px;
+      text-align: center;
+    }
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    .link-button {
+      padding: 0.5rem 1rem;
+      margin: 0.5rem;
+      background-color: #2776FF;
+      color: white;
+      border-radius: 8px;
+      transition: background-color 0.3s ease-in-out;
+    }
+    .link-button:hover {
+      background-color: #175BC5;
+    }
+    .copyright {
+      color: rgba(255, 255, 255, 0.6);
+      margin-top: 1.5rem;
     }
   </style>
 </head>
-<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+<body>
 
-  <div class="bg-white p-8 rounded-md shadow-md text-center">
-    <img src="resources/profile.png" alt="Sudhanshu Tiwari" class="w-24 h-24 rounded-full mx-auto mb-4">
-    <h1 class="text-2xl font-semibold mb-2">Sudhanshu Tiwari</h1>
+  <div class="container">
+    <img src="resources/profile.png" alt="Sudhanshu Tiwari" class="profile-pic mx-auto">
+    <h1 class="text-2xl font-semibold text-white mb-2">Sudhanshu Tiwari</h1>
     <div class="space-y-4">
-      <a href="https://linkedin.com/in/sudhanshutiwari" class="block px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">LinkedIn</a>
-      <a href="https://github.com/sudhanshutiwari" class="block px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-800">GitHub</a>
-      <a href="https://twitter.com/sudhanshu" class="block px-4 py-2 bg-blue-400 text-white rounded-md hover:bg-blue-500">Twitter</a>
+      <a href="https://linkedin.com/in/sudhanshutiwari" class="link-button">LinkedIn</a>
+      <a href="https://github.com/sudhanshutiwari" class="link-button">GitHub</a>
+      <a href="https://twitter.com/sudhanshu" class="link-button">Twitter</a>
       <!-- Add more links here -->
     </div>
     <p class="mt-6 text-gray-500">&copy; 2023 Sudhanshu Tiwari. All rights reserved.</p>
