@@ -137,34 +137,5 @@
     </div>
     <p class="mt-6 text-gray-400">&copy; 2023 Sudhanshu Tiwari. All rights reserved.</p>
   </div>
-
-  <script>
-    const contactForm = document.getElementById('contactform');
-    const confirmationMessage = document.querySelector('.confirmation-message');
-    const errorMessage = document.querySelector('.error-message');
-
-    contactForm.addEventListener('submit', async (e) => {
-      e.preventDefault();
-
-      const formData = new FormData(contactForm);
-      const response = await fetch(contactForm.action, {
-        method: contactForm.method,
-        body: formData,
-      });
-
-      if (response.ok) {
-        confirmationMessage.classList.remove('hidden');
-        errorMessage.classList.add('hidden');
-        contactForm.reset();
-        setTimeout(() => {
-          confirmationMessage.classList.add('hidden');
-        }, 3000); // Hide the confirmation after 3 seconds
-      } else {
-        errorMessage.classList.remove('hidden');
-        confirmationMessage.classList.add('hidden');
-      }
-    });
-  </script>
-
 </body>
 </html>
