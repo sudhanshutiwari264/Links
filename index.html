@@ -139,16 +139,16 @@
     const contactForm = document.getElementById('contactForm');
     const confirmationMessage = document.querySelector('.confirmation-message');
     const errorMessage = document.querySelector('.error-message');
-
+  
     contactForm.addEventListener('submit', async (e) => {
       e.preventDefault();
-
+  
       const formData = new FormData(contactForm);
       const response = await fetch('https://formsubmit.io/send/sudhanshutiwari264@gmail.com', {
         method: 'POST',
         body: formData,
       });
-
+  
       if (response.ok) {
         confirmationMessage.classList.remove('hidden');
         errorMessage.classList.add('hidden');
