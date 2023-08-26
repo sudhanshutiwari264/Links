@@ -1,6 +1,6 @@
 # Sudhanshu Tiwari's Linktree
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg)](https://www.buymeacoffee.com/SudhanshuInTech)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg)](https://paypal.me/sudhanshutiwari26?country.x=IN&locale.x=en_GB)
 
 This is a simple web page designed to serve as a personal link repository similar to Linktree. 
 It provides a centralized place to showcase important links, such as social media profiles, GitHub, and more.
