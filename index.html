@@ -5,12 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <title>Sudhanshu Tiwari's Linktree</title>
   <style>
     body {
       background-color: #1F2937;
-      background-image: url('resources/background.jpg');
-      background-size: cover;
       font-family: 'Poppins', sans-serif;
       display: flex;
       justify-content: center;
@@ -46,58 +43,14 @@
     .link-button:hover {
       background-color: #175BC5;
     }
-    .contact-form {
+    .web3-style {
+      color: #FFD700;
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+    .footer {
       margin-top: 2rem;
-    }
-    .input-group {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 1rem;
-    }
-    .input-group label {
-      text-align: left;
-      margin-bottom: 0.5rem;
-      color: white;
-    }
-    .input-group input,
-    .input-group textarea {
-      background-color: rgba(255, 255, 255, 0.2);
-      border: none;
-      padding: 0.5rem;
-      border-radius: 8px;
-      color: white;
-    }
-    .input-group input:focus,
-    .input-group textarea:focus {
-      outline: none;
-      background-color: rgba(255, 255, 255, 0.3);
-    }
-    .submit-button {
-      background-color: #2776FF;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 30px;
-      border: none;
-      cursor: pointer;
-      transition: background-color 0.3s ease-in-out;
-    }
-    .submit-button:hover {
-      background-color: #175BC5;
-    }
-    .confirmation-message {
-      color: #63C72B;
-      margin-top: 1rem;
-    }
-    .error-message {
-      color: #FF453A;
-      margin-top: 1rem;
-    }
-    .message {
-      color: white;
-      text-align: center;
-    }
-    .hidden {
-      display: none;
+      color: #9CA3AF;
     }
   </style>
 </head>
@@ -105,14 +58,19 @@
 
   <div class="container">
     <img src="resources/profile.png" alt="Sudhanshu Tiwari" class="profile-pic mx-auto">
-    <h1 class="text-3xl font-semibold text-white mb-2">Connect with Sudhanshu</h1>
+    <h1 class="text-3xl font-semibold text-white mb-2">Sudhanshu Tiwari</h1>
     <div class="space-y-4">
       <a href="https://linkedin.com/in/sudhanshutiwari" class="link-button">LinkedIn</a>
       <a href="https://github.com/sudhanshutiwari" class="link-button">GitHub</a>
       <a href="https://twitter.com/sudhanshu" class="link-button">Twitter</a>
       <!-- Add more links here -->
     </div>
-    <p class="mt-6 text-gray-400">&copy; 2023 Sudhanshu Tiwari. All rights reserved.</p>
+    <div class="web3-style">
+      <i class="fas fa-cube text-4xl"></i>
+    </div>
+    <div class="footer mt-4">
+      <p class="text-sm">&copy; 2023 Sudhanshu Tiwari. All rights reserved.</p>
+    </div>
   </div>
 
 </body>
