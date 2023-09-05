@@ -33,7 +33,7 @@ For inquiries, collaborations, or just to say hi, you can reach out to Sudhanshu
 
 - [LinkedIn](https://www.linkedin.com/in/tiwari-sudhanshu/)
 - [GitHub](https://github.com/sudhanshutiwari264)
-- [Twitter](https://twitter.com/Pythontiwari)
-- [Instgram](https://www.instagram.com/tiwariji264)
+- [Twitter](https://twitter.com/sudhanshusX)
+- [Instgram](https://www.instagram.com/minetechjourney)
 
 ---
